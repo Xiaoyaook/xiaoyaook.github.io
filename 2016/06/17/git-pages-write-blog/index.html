@@ -4,18 +4,18 @@
   <meta charset="utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>the first page | 红红火火，恍恍惚惚</title>
+  <title>回顾一下，使用git pages 和 Hexo创建blog的过程 | 红红火火，恍恍惚惚</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="扬帆，起航！">
+  <meta name="description" content="配置SSH keys（各大网站均有教程)如果不存在就没有关系，如果存在的话，直接删除.ssh文件夹里面所有文件其中Enter passphrase (empty for no passphrase):&amp;lt;输入加密串&amp;gt;Enter same passphrase again:&amp;lt;再次输入加密串&amp;gt;这里在回车中会提示你输入一个密码，这个密码会在你提交项目时使用，如果为空的话提交项目时则">
 <meta property="og:type" content="article">
-<meta property="og:title" content="the first page">
-<meta property="og:url" content="http://yoursite.com/2016/06/17/the first page/index.html">
+<meta property="og:title" content="回顾一下，使用git pages 和 Hexo创建blog的过程">
+<meta property="og:url" content="http://yoursite.com/2016/06/17/git-pages-write-blog/index.html">
 <meta property="og:site_name" content="红红火火，恍恍惚惚">
-<meta property="og:description" content="扬帆，起航！">
-<meta property="og:updated_time" content="2016-06-17T07:48:16.532Z">
+<meta property="og:description" content="配置SSH keys（各大网站均有教程)如果不存在就没有关系，如果存在的话，直接删除.ssh文件夹里面所有文件其中Enter passphrase (empty for no passphrase):&amp;lt;输入加密串&amp;gt;Enter same passphrase again:&amp;lt;再次输入加密串&amp;gt;这里在回车中会提示你输入一个密码，这个密码会在你提交项目时使用，如果为空的话提交项目时则">
+<meta property="og:updated_time" content="2016-06-18T11:09:40.076Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="the first page">
-<meta name="twitter:description" content="扬帆，起航！">
+<meta name="twitter:title" content="回顾一下，使用git pages 和 Hexo创建blog的过程">
+<meta name="twitter:description" content="配置SSH keys（各大网站均有教程)如果不存在就没有关系，如果存在的话，直接删除.ssh文件夹里面所有文件其中Enter passphrase (empty for no passphrase):&amp;lt;输入加密串&amp;gt;Enter same passphrase again:&amp;lt;再次输入加密串&amp;gt;这里在回车中会提示你输入一个密码，这个密码会在你提交项目时使用，如果为空的话提交项目时则">
   
     <link rel="alternative" href="/atom.xml" title="红红火火，恍恍惚惚" type="application/atom+xml">
   
@@ -197,11 +197,11 @@
 	</div>
 </nav>
 
-      <div class="body-wrap"><article id="post-the first page" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-git-pages-write-blog" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/06/17/the first page/" class="article-date">
-  	<time datetime="2016-06-17T07:44:59.000Z" itemprop="datePublished">2016-06-17</time>
+      <a href="/2016/06/17/git-pages-write-blog/" class="article-date">
+  	<time datetime="2016-06-17T10:56:37.000Z" itemprop="datePublished">2016-06-17</time>
 </a>
     </div>
   
@@ -214,7 +214,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      the first page
+      回顾一下，使用git pages 和 Hexo创建blog的过程
     </h1>
   
 
@@ -230,7 +230,34 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="扬帆，起航！"><a href="#扬帆，起航！" class="headerlink" title="扬帆，起航！"></a>扬帆，起航！</h1>
+        <h2 id="配置SSH-keys"><a href="#配置SSH-keys" class="headerlink" title="配置SSH keys"></a>配置SSH keys</h2><p>（各大网站均有教程)<br>如果不存在就没有关系，如果存在的话，直接删除.ssh文件夹里面所有文件<br>其中<br>Enter passphrase (empty for no passphrase):&lt;输入加密串&gt;<br>Enter same passphrase again:&lt;再次输入加密串&gt;<br>这里在回车中会提示你输入一个密码，这个密码会在你提交项目时使用，如果为空的话提交项目时则不用输入。这个设置是防止别人往你的项目里提交内容。</p>
+<h3 id="添加SSH-Key到GitHub"><a href="#添加SSH-Key到GitHub" class="headerlink" title="添加SSH Key到GitHub"></a>添加SSH Key到GitHub</h3><h3 id="测试设置是否成功"><a href="#测试设置是否成功" class="headerlink" title="测试设置是否成功"></a>测试设置是否成功</h3><h2 id="Github上建仓库"><a href="#Github上建仓库" class="headerlink" title="Github上建仓库"></a>Github上建仓库</h2><p>注意project name：username.github.io 项目名称是固定的 必须为用户的username</p>
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><blockquote>
+<p>$ npm install -g hexo        -g的意思是在全局环境下</p>
+</blockquote>
+<h2 id="部署hexo"><a href="#部署hexo" class="headerlink" title="部署hexo"></a>部署hexo</h2><p>建立一个名字叫「Hexo」的文件夹，然后在此文件夹中右键打开Git Bash</p>
+<blockquote>
+<p>$ hexo init<br>Hexo随后会自动在目标文件夹建立网站所需要的所有文件<br><em>*但这样完成后不能执行hexo d
+</em>原因在Hexo 3.0版本后deploy git 被分开的，所以需要安装，安装命令如下:npm install hexo-deployer-git –save<br>现在已经搭建起本地的hexo博客了，执行<br>$ hexo g<br>$ hexo s<br>然后到浏览器输入localhost:4000 即可浏览hexo的初始界面</p>
+</blockquote>
+<h1 id="之后，将本地的博客同步到github"><a href="#之后，将本地的博客同步到github" class="headerlink" title="之后，将本地的博客同步到github"></a>之后，将本地的博客同步到github</h1><h2 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h2><p>到你刚刚创建的Repository下，找到https url 复制<br>编辑_config.yml文件<br>修改文件里面的deploy。其中的repository就改成你刚刚复制的地址。<br>Type为 git<br>Branch为master（注意与冒号间要空一格）<br>保存这个文件。</p>
+<p>键入指令：</p>
+<blockquote>
+<p>hexo generate<br>hexo deploy<br>Username是你的Github账号名称，而不是邮箱；Password就是你的Github的密码。</p>
+</blockquote>
+<p>注意：每次修改本地文件后，需要键入hexo generate才能保存。每次使用命令时，都要在C:\Hexo目录下。<br>每次想要上传文件到Github时，就应该先键入hexo generate保存之后，再键入hexo deploy。</p>
+<h2 id="Hexo具有多种主题，我选用的是yilia"><a href="#Hexo具有多种主题，我选用的是yilia" class="headerlink" title="Hexo具有多种主题，我选用的是yilia"></a>Hexo具有多种主题，我选用的是yilia</h2><p>安装方法 $ git clone (<a href="https://github.com/litten/hexo-theme-yilia.git" target="_blank" rel="external">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia)<br>配置     修改hexo根目录下的 _config.yml ： theme: yilia<br>更新    </p>
+<blockquote>
+<p>cd themes/yilia<br>git pull</p>
+</blockquote>
+<h2 id="Hexo上传README文件"><a href="#Hexo上传README文件" class="headerlink" title="Hexo上传README文件"></a>Hexo上传README文件</h2><p>README.md放在source文件夹，然后修改全局config里面的skip-render: [README.md]</p>
+<h2 id="常用命令："><a href="#常用命令：" class="headerlink" title="常用命令："></a>常用命令：</h2><p>hexo new “postName” #新建文章<br>hexo new page “pageName” #新建页面<br>hexo generate #生成静态页面至public目录<br>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>hexo deploy #将.deploy目录部署到GitHub</p>
+<h2 id="hexo现在支持更加简单的命令格式了，比如："><a href="#hexo现在支持更加简单的命令格式了，比如：" class="headerlink" title="hexo现在支持更加简单的命令格式了，比如："></a>hexo现在支持更加简单的命令格式了，比如：</h2><p>hexo g == hexo generate<br>hexo d == hexo deploy<br>hexo s == hexo server<br>hexo n == hexo new</p>
+<h2 id="自定义404页面仅对绑定顶级域名的项目才起作用，GitHub默认分配的二级域名是不起作用的"><a href="#自定义404页面仅对绑定顶级域名的项目才起作用，GitHub默认分配的二级域名是不起作用的" class="headerlink" title="自定义404页面仅对绑定顶级域名的项目才起作用，GitHub默认分配的二级域名是不起作用的"></a>自定义404页面仅对绑定顶级域名的项目才起作用，GitHub默认分配的二级域名是不起作用的</h2><p><em>目前先将就用默认分配的域名，域名购买与DNS设置以后有机会再弄</em></p>
+<h2 id="markdown文件的写法"><a href="#markdown文件的写法" class="headerlink" title="markdown文件的写法"></a>markdown文件的写法</h2><p>[简书]<a href="http://www.jianshu.com/p/q81RER" target="_blank" rel="external">http://www.jianshu.com/p/q81RER</a></p>
+<p>博客搭建大致按照<a href="http://www.jianshu.com/p/05289a4bc8b2" target="_blank" rel="external">CnFeat</a>提供的步骤<br>以及<a href="http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html" target="_blank" rel="external">百度经验</a></p>
+<p><em>非常感谢 <em>(:3 」∠)</em></em></p>
+
       
     </div>
     
@@ -239,15 +266,11 @@
     
 <nav id="article-nav">
   
-    <a href="/2016/06/17/git-pages-write-blog/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          回顾一下，使用git pages 和 Hexo创建blog的过程
-        
-      </div>
-    </a>
   
+    <a href="/2016/06/17/the first page/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">the first page</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
   
 </nav>
 
@@ -280,7 +303,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="the first page" data-title="the first page" data-url="http://yoursite.com/2016/06/17/the first page/"></div>
+	<div class="ds-thread" data-thread-key="git-pages-write-blog" data-title="回顾一下，使用git pages 和 Hexo创建blog的过程" data-url="http://yoursite.com/2016/06/17/git-pages-write-blog/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
